@@ -1,0 +1,115 @@
+* {
+    font-family: "Roboto", sans-serif;
+
+  /* text-shadow: 3px 3px 3px #1d080849; */
+
+}
+.main {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* *************************************navbar***************************** */
+.navbar-nav {
+    --bs-nav-link-padding-y: 0.8rem;
+}
+
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.1rem;
+    transition: all 1s linear;
+}
+
+.navbar.active {
+    background-color: rgba(27, 47, 69, 0.9);
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    transition: all 1s linear;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav a:hover i {
+    /* background-color: white; */
+    color: black;
+}
+
+.m.nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+ol {
+    margin: 0;
+}
+
+/* ***********************************innernav************************** */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #212529;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+
+/* ********************************accountinfo********************************* */
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: rgba(108, 117, 125);
+    ;
+    color: white;
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+
+/* **********************************info****************************************** */
+
+/* ********************************forms******************************************** */
+form label {
+    color: black;
+}
+
+.blockquote-footer {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.list-group-item {
+    
+    border: var(--bs-list-group-border-width) solid #adb5bd;
+}
+
+
+
+
